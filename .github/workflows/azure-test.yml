@@ -14,7 +14,7 @@ jobs:
       with:
         switches: -avzr --delete
         path: src/
-        remote_path: /var/www/html/
-        remote_host: example.com
-        remote_user: debian
+        remote_path: /home/wagumi/work/git-test
+        remote_host: 52.140.201.81
+        remote_user: wagumi
         remote_key: ${{ secrets.DEPLOY_KEY }}
